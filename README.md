@@ -1,22 +1,17 @@
-<<<<<<< HEAD
-## Getting Started
+📘 Taller: Principio de Segregación de Interfaces (ISP) – SOLID en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🎯 Objetivo del Taller
 
-## Folder Structure
+Comprender y aplicar el Principio de Segregación de Interfaces (ISP), el cual indica que ninguna clase debe estar obligada a implementar métodos que no necesite.
+Este principio ayuda a crear interfaces más específicas y sistemas más flexibles y mantenibles.
 
-The workspace contains two folders by default, where:
+📄 Contenido del Taller
+1. ✅ Explicación del ISP
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+El ISP (Interface Segregation Principle) establece que es mejor tener interfaces pequeñas y específicas que una sola interfaz grande con métodos que no todos los clientes necesitan.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Ejemplo de mala práctica (violación del ISP):
+Una interfaz muy grande obliga a clases concretas a implementar métodos inútiles.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# Taller-sobre-Principios-SOLID-en-Java-Segregaci-n-de-Interfaces
->>>>>>> 0ab02da4402ef86e89d74922978960d7e015b3b0
+Ejemplo de buena práctica:
+Dividir una interfaz grande en varias más pequeñas y enfocadas.
